@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    row-gap: 20px; 
+}
+h2 {
+    display: none;
+    background-color: black;
+    padding: 15px 25px;
+    border-radius: 10px;  
+    color: white;  
+
+}
+.clickbtn {
+    font-size: 17px;    
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background: transparent;
+    padding: 15px 25px;
+    border:2px solid #111111;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.clickbtn:hover {
+    background-color: black;
+    color: white;
+}
